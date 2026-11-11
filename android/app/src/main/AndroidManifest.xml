@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- PERMISO AGREGADO PARA EL PASO 0.3 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:label="dolores_hoy"
         android:name="${applicationName}"
